@@ -1,0 +1,4 @@
+*.ANS -diff
+*.ASM working-tree-encoding=CP437
+*.INC working-tree-encoding=CP437
+*.PAS working-tree-encoding=CP437
