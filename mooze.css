@@ -1,0 +1,31 @@
+BODY { background: white; margin-left: 90px;
+       background-image: url(background2.gif); background-repeat: repeat-y }
+BODY#index { margin-left: 8px; background-image: url(background1.gif) }
+
+A:link, A:visited, A:active { color: red }
+A.glossary { text-decoration: underline dotted }
+
+TH, TD { padding-right: 10px }
+TH.size, TD.size, TH.date, TD.date { white-space: nowrap; text-align: right }
+
+IMG { border-style: none }
+
+BODY#index P { font-weight: bold }
+
+@media screen and (640px <= width < 768px) {
+    BODY#index { margin-left: 90px; background-image: url(background2.gif) }
+}
+
+@media screen and (width < 768px) {
+    #leftbar { display: none }
+}
+
+@media screen and (width < 640px) {
+    BODY, BODY#index { margin-left: 8px; background-image: none }
+    TH.size, TD.size { display: none }
+}
+
+@media screen and (width < 512px) {
+    TH, TD { padding-right: 1px }
+    TD.date .d, TD.date .m { display: none; }
+}
