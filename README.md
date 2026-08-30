@@ -1,6 +1,6 @@
 # The Mooze Productions Repository
 
-Purpose of this repository is preservation of digital art by the demo group Mooze from years 1994-1999. For more information about Mooze and the releases you can find here, check our [home page](http://www.mooze.org).
+Purpose of this repository is preservation of digital art by the demo group Mooze from years 1994-1999. For more information about Mooze and the releases you can find here, check out our [home page](http://mooze.org).
 
 Most of our releases are currently available only in binary format. This repository has some source code as well, to give you a taste of what demo coding was like back then. The released code fragments are usually for a single demo effect — our demos consist of several such effects and thus had correspondingly larger code bases.
 
